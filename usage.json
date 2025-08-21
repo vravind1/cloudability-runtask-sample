@@ -1,0 +1,11 @@
+i{
+  "usage": {
+    "aws_s3_bucket": {
+      "us-east-1": {
+        "storage_gb": "250",
+        "monthly_get_requests": "50000",
+        "monthly_put_requests": "10000"
+      }
+    }
+  }
+}
