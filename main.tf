@@ -88,7 +88,7 @@ resource "aws_route_table_association" "public" {
 # cause your Cloudability policy check to fail.
 resource "aws_instance" "test_vm" {
   ami                    = "ami-0ff8a91507f77f867" # Amazon Linux AMI (us-east-1)
-  instance_type          = "t2.nano"
+  instance_type          = "t2.small"
   subnet_id              = aws_subnet.public.id
   vpc_security_group_ids = [aws_security_group.instance_sg.id]
 
