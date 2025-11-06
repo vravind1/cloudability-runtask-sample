@@ -144,6 +144,6 @@ resource "aws_security_group" "instance_sg" {
   tags = {
     Name        = "cloudability-test-sg"
     Environment = "testing"
-    cost-center = "engineering-research"
+    cost-center = "engineering-research-01"
   }
 }
